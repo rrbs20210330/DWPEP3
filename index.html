@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    Eventos del mouse  en HTML5
+    <!-- Se utiliza el evento mousemove para detectar movimientos del ratón -->
+    <div id="scroll-buttons">
+        <button id="scroll-up-btn" class="scroll-button">Scroll up</button>
+        <button id="scroll-down-btn" class="scroll-button">Scroll down</button>
+    </div>
+    <h2>MouseMove</h2>
+    <p id="coordenadas"></p>
+    <h2>MouseDown/MouseUp</h2>
+    <p href="#" onmousedown="iniciar()">MouseDown: Activar/Desactivar Coordenadas</p>
+    <p href="#" onmouseup="iniciar()">MouseUp: Activar/Desactivar Coordenadas</p>
+    <h2>MouseOver/MouseOut</h2>
+    <p onmouseover="startChangingColor()" onmouseout="stopChangingColor()">MODO FIESTAAAA</p>
+    <button id="toggle-scroll-buttons" class="scroll-button">Ocultar/ Mostrar botones de scroll</button>
+    <h2>ContextMenu/Click and DoubleClick</h2>
+    <button id="left-click-btn" class="scroll-button">Click izquierdo</button>
+    <button id="right-click-btn" class="scroll-button">Click derecho</button>
+    <button id="double-click-btn" class="scroll-button">Doble click</button>
+    <script src="js/Fiesta.js"></script>
+    <script src="js/Sniper.js"></script>
+    <script src="js/Scroll.js"></script>
+</body>
+</html>

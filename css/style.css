@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 2000px; /* Altura suficiente para hacer scroll */
+}
+#scroll-buttons {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
+#toggle-scroll-buttons {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+.scroll-button {
+    margin: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
